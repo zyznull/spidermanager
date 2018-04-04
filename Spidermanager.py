@@ -18,5 +18,5 @@ class SpiderManager(object):
 sp = SpiderManager()
 urlname = sp.search(type = 'zhihu',name = u'金与火之歌')
 print(urlname)
-sp.crawl(type = 'zhihu',author = u'张佳玮',url = urlname)
+sp.crawl(type = 'zhihu',author = u'1',url = urlname)
 

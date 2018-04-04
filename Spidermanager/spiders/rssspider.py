@@ -8,7 +8,7 @@ class RssSpider(XMLFeedSpider):
 
     def __init__(self,author,links,*args,**kwargs):
         super(RssSpider,self).__init__(*args,**kwargs)
-        self.author = (int)author
+        self.author = int(author)
         self.start_urls.append(links)
 
     def parse_node(self, response, selector):

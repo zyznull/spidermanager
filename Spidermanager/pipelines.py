@@ -36,12 +36,12 @@ class ArticleDataBasePipeline(object):
                     title = item["title"].encode("utf-8"),
                     topic_id = item["topic_id"],
                     abstract = item["abstract"].encode("utf-8"),
-                    publish_time = item["publish_time"].encode("utf-8"))
+                    publish_time = item["publish_time"])
         session = self.Session()
         b = session.query(Article).filter_by(url = item["url"]).first()
         if(b != None):
-            session.delete(b)
-            session.commit()
+           session.delete(b)
+           session.commit()
         session.add(a)
         session.commit()
         '''
