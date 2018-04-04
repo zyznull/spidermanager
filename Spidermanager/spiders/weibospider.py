@@ -5,6 +5,7 @@ import scrapy
 import json
 from io import *
 import re
+import datetime
 #import sys
 
 #sys.stdout = TextIOWrapper(sys.stdout.buffer,encoding='UTF-8') #改变标准输出的默认编码  
@@ -15,7 +16,7 @@ class weiboSpider(scrapy.Spider):
     start_urls = []
     def __init__(self,author,links,*args,**kwargs):
         super(weiboSpider,self).__init__(*args,**kwargs)
-        self.author = author
+        self.author = int(author)
         self.start_urls.append(links)
 
     def start_requests(self):
@@ -31,11 +32,12 @@ class weiboSpider(scrapy.Spider):
         pattern = re.compile(r'<[^>]+>', re.S)
         for ele in jsonbody['data']['cards']:
             item = ArticleItem()
-            item['link'] = ele['scheme']
-            item['author'] = self.author
-            item['desc'] = ''
+            item['url'] = ele['scheme']
+            item['topic_id'] = self.author
+            item['title'] = ''
             text = ele['mblog']['text']
             text = pattern.sub('', text)
-            length = min(20,len(text))
-            item['title'] = text[:length]
+            length = min(100,len(text))
+            item['abstract'] = text[:length]
+            item['publish_time'] = datetime.datetime.now()
             yield item

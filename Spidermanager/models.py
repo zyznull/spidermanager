@@ -11,9 +11,10 @@ class Article(Base):
     """电子邮件表"""
     __tablename__ = 'Article'
     title = Column(String(100), primary_key=True)
-    link = Column(String(500), index = True,nullable=False)
-    desc = Column(String(500),unique = False)
-    author = Column(String(100),index = True,unique = False)
+    url = Column(Text(500), index = True,unique = True,nullable=False)
+    abstract = Column(Text(500),unique = False)
+    topic_id = Column(Integer,index = True,unique = False)
+    publish_time = Column(String(51),index = False,unique = False)
     def __repr__(self):
         return "<Article(link='{}')>".format(self.link)
 
