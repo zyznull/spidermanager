@@ -35,7 +35,7 @@ DATABASE = {'drivername': 'mysql',
             'port': '3306',
             'username': 'root',
             'password': 'cptbtptp',
-            'database': 'spider',
+            'database': 'push',
             'query': {'charset': 'utf8'}}
 
 FEED_EXPORT_ENCODING = 'utf-8'
