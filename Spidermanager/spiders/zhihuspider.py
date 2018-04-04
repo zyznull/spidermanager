@@ -42,7 +42,7 @@ class zhihuSpider(scrapy.Spider):
         pattern = re.compile(r'<[^>]+>', re.S)
         for ele in jsonbody:
             item = ArticleItem()
-            item['link'] = ele['url']
+            item['link'] = 'https://zhuanlan.zhihu.com'+ ele['url']
             item['title'] = ele['title']
             item['author'] = self.author
             content = ele['content']

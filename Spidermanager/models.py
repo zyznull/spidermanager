@@ -18,7 +18,7 @@ class Article(Base):
         return "<Article(link='{}')>".format(self.link)
 
 def db_connect():
-    return create_engine('mysql+pymysql://root:Password@127.0.0.1:3306/spider', echo=True)
+    return create_engine('mysql+pymysql://root:cptbtptp@127.0.0.1:3306/spider', echo=True)
 
 def create_news_table(engine):
     Base.metadata.create_all(engine)

@@ -31,10 +31,10 @@ DOWNLOADER_MIDDLEWARES = {
 }
 
 DATABASE = {'drivername': 'mysql',
-            'host': '',
+            'host': '127.0.0.1',
             'port': '3306',
             'username': 'root',
-            'password': '',
+            'password': 'cptbtptp',
             'database': 'spider',
             'query': {'charset': 'utf8'}}
 

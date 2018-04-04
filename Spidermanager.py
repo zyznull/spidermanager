@@ -15,8 +15,8 @@ class SpiderManager(object):
 
     def crawl(sefl,type,url,author):
         cmdline.execute(('scrapy crawl '+type+' -a author='+author+' -a links='+url).split())
-
 sp = SpiderManager()
-link = sp.search(type = 'weibo',name = '不二大叔说')
-print(link)
-sp.crawl(type = 'weibo',url = link,author='不二大叔说')
+urlname = sp.search(type = 'zhihu',name = u'金与火之歌')
+print(urlname)
+sp.crawl(type = 'zhihu',author = u'张佳玮',url = urlname)
+

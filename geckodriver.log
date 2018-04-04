@@ -1,0 +1,770 @@
+1522737153099	geckodriver	INFO	geckodriver 0.18.0
+1522737153108	geckodriver	INFO	Listening on 127.0.0.1:32998
+1522737154267	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522737155026	Marionette	INFO	Enabled via --marionette
+
+(firefox:7827): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7827): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7827): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7827): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7827): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7827): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7827): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:7874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7874): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:7874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522737157966	Marionette	INFO	Listening on port 54013
+1522737158056	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7874, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7874, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7874, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522737271528	geckodriver	INFO	geckodriver 0.18.0
+1522737271535	geckodriver	INFO	Listening on 127.0.0.1:56669
+1522737272844	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522737273632	Marionette	INFO	Enabled via --marionette
+
+(firefox:7976): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7976): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7976): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7976): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7976): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7976): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7976): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:8023): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8023): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8023): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8023): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8023): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:8023): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8023): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522737276346	Marionette	INFO	Listening on port 49272
+1522737276424	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8023, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8023, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8023, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522737597520	geckodriver	INFO	geckodriver 0.18.0
+1522737597525	geckodriver	INFO	Listening on 127.0.0.1:48295
+1522737598683	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522737599496	Marionette	INFO	Enabled via --marionette
+
+(firefox:8191): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8191): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8191): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8191): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8191): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8191): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8191): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:8240): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8240): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8240): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8240): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8240): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:8240): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8240): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522737602580	Marionette	INFO	Listening on port 44287
+1522737602684	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8274, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8240, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8240, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8240, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522737672483	geckodriver	INFO	geckodriver 0.18.0
+1522737672488	geckodriver	INFO	Listening on 127.0.0.1:35814
+1522737673650	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522737674484	Marionette	INFO	Enabled via --marionette
+
+(firefox:8363): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8363): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8363): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8363): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8363): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8363): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8363): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:8410): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8410): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8410): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8410): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8410): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:8410): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8410): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522737677884	Marionette	INFO	Listening on port 57276
+1522737677982	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8437, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8410, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8410, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8410, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522738216095	geckodriver	INFO	geckodriver 0.18.0
+1522738216100	geckodriver	INFO	Listening on 127.0.0.1:35023
+1522738217401	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522738218338	Marionette	INFO	Enabled via --marionette
+
+(firefox:8700): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8700): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8700): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8700): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8700): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8700): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8700): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:8747): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8747): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8747): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8747): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8747): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:8747): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8747): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522738220970	Marionette	INFO	Listening on port 35490
+1522738221044	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8785, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8747, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8747, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8747, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522738284975	geckodriver	INFO	geckodriver 0.18.0
+1522738284980	geckodriver	INFO	Listening on 127.0.0.1:56693
+1522738286132	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522738286872	Marionette	INFO	Enabled via --marionette
+
+(firefox:8875): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8875): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8875): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8875): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8875): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8875): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8875): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:8924): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8924): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8924): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8924): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8924): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:8924): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8924): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522738289498	Marionette	INFO	Listening on port 50772
+1522738289568	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8958, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8924, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8924, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8924, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522738343745	geckodriver	INFO	geckodriver 0.18.0
+1522738343753	geckodriver	INFO	Listening on 127.0.0.1:59897
+1522738344907	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522738345740	Marionette	INFO	Enabled via --marionette
+
+(firefox:9034): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9034): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9034): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9034): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9034): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9034): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9034): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:9083): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9083): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9083): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9083): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9083): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:9083): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9083): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522738348550	Marionette	INFO	Listening on port 41848
+1522738348704	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9125, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9083, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9083, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9083, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522738686847	geckodriver	INFO	geckodriver 0.18.0
+1522738686852	geckodriver	INFO	Listening on 127.0.0.1:43419
+1522738688037	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522738688838	Marionette	INFO	Enabled via --marionette
+
+(firefox:9276): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9276): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9276): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9276): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9276): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9276): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9276): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:9323): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9323): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9323): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9323): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9323): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:9323): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9323): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522738691526	Marionette	INFO	Listening on port 52830
+1522738691600	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9356, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9323, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9323, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9323, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522739672714	geckodriver	INFO	geckodriver 0.18.0
+1522739672719	geckodriver	INFO	Listening on 127.0.0.1:41363
+1522739674015	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522739674898	Marionette	INFO	Enabled via --marionette
+
+(firefox:9650): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9650): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9650): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9650): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9650): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9650): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9650): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:9697): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9697): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9697): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9697): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9697): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:9697): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9697): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522739677516	Marionette	INFO	Listening on port 43239
+1522739677584	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9734, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9697, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9697, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9697, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522740210974	geckodriver	INFO	geckodriver 0.18.0
+1522740210979	geckodriver	INFO	Listening on 127.0.0.1:35680
+1522740212282	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522740213300	Marionette	INFO	Enabled via --marionette
+
+(firefox:9875): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9875): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9875): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9875): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9875): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9875): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9875): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:9923): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9923): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9923): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9923): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9923): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:9923): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9923): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522740216282	Marionette	INFO	Listening on port 34964
+1522740216356	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9956, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9923, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9923, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9923, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522741950726	geckodriver	INFO	geckodriver 0.18.0
+1522741950731	geckodriver	INFO	Listening on 127.0.0.1:47804
+1522741951890	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522741952656	Marionette	INFO	Enabled via --marionette
+
+(firefox:10542): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10542): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:10542): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10542): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:10542): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10542): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:10542): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:10589): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10589): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10589): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10589): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10589): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:10589): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10589): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522741955486	Marionette	INFO	Listening on port 57215
+1522741955578	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10628, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10589, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10589, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10589, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522743317517	geckodriver	INFO	geckodriver 0.18.0
+1522743317526	geckodriver	INFO	Listening on 127.0.0.1:33435
+1522743318818	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522743320134	Marionette	INFO	Enabled via --marionette
+
+(firefox:10855): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10855): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:10855): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10855): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:10855): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10855): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:10855): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:10902): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10902): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10902): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10902): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10902): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:10902): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10902): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522743323234	Marionette	INFO	Listening on port 45217
+1522743323326	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10940, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10902, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10902, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10902, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522747436517	geckodriver	INFO	geckodriver 0.18.0
+1522747436522	geckodriver	INFO	Listening on 127.0.0.1:53335
+1522747437670	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522747438410	Marionette	INFO	Enabled via --marionette
+
+(firefox:11317): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:11317): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:11317): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:11317): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:11317): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:11317): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:11317): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:11364): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11364): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11364): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11364): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11364): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:11364): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11364): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522747441198	Marionette	INFO	Listening on port 60121
+1522747441358	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 11404, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11364, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11364, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 11364, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522749126243	geckodriver	INFO	geckodriver 0.18.0
+1522749126249	geckodriver	INFO	Listening on 127.0.0.1:51639
+1522749127544	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522749128330	Marionette	INFO	Enabled via --marionette
+
+(firefox:11674): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:11674): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:11674): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:11674): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:11674): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:11674): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:11674): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:11721): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11721): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11721): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11721): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11721): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:11721): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11721): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522749131170	Marionette	INFO	Listening on port 34490
+1522749131304	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 11757, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11721, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11721, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 11721, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522749217068	geckodriver	INFO	geckodriver 0.18.0
+1522749217073	geckodriver	INFO	Listening on 127.0.0.1:38509
+1522749218372	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522749219414	Marionette	INFO	Enabled via --marionette
+
+(firefox:11821): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:11821): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:11821): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:11821): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:11821): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:11821): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:11821): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:11868): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11868): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11868): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11868): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11868): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:11868): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:11868): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522749222284	Marionette	INFO	Listening on port 49564
+1522749222298	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 11908, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11868, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11868, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 11868, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522821876967	geckodriver	INFO	geckodriver 0.18.0
+1522821876979	geckodriver	INFO	Listening on 127.0.0.1:51448
+1522821878140	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522821879096	Marionette	INFO	Enabled via --marionette
+
+(firefox:5426): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5426): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5426): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5426): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5426): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5426): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5426): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:5474): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5474): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5474): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5474): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5474): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:5474): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5474): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522821881850	Marionette	INFO	Listening on port 52703
+1522821881916	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5474, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5474, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5474, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522825210957	geckodriver	INFO	geckodriver 0.18.0
+1522825210962	geckodriver	INFO	Listening on 127.0.0.1:43069
+1522825212104	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522825212822	Marionette	INFO	Enabled via --marionette
+
+(firefox:6151): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6151): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6151): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6151): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6151): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6151): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6151): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:6198): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6198): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6198): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6198): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6198): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:6198): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6198): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522825215412	Marionette	INFO	Listening on port 48588
+1522825215472	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6236, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6198, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6198, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6198, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522825370688	geckodriver	INFO	geckodriver 0.18.0
+1522825370692	geckodriver	INFO	Listening on 127.0.0.1:58441
+1522825371844	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522825372568	Marionette	INFO	Enabled via --marionette
+
+(firefox:6313): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6313): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6313): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6313): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6313): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6313): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6313): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:6360): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6360): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6360): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6360): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6360): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:6360): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6360): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522825375026	Marionette	INFO	Listening on port 57813
+1522825375094	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6400, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6360, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6360, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6360, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522827524439	geckodriver	INFO	geckodriver 0.18.0
+1522827524444	geckodriver	INFO	Listening on 127.0.0.1:47243
+1522827525596	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1522827526436	Marionette	INFO	Enabled via --marionette
+
+(firefox:7234): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7234): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7234): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7234): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7234): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7234): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7234): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+
+(/usr/lib/firefox/firefox:7281): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7281): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7281): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7281): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7281): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+
+
+(/usr/lib/firefox/firefox:7281): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7281): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1522827528984	Marionette	INFO	Listening on port 41735
+1522827529048	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7318, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7281, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7281, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7281, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
