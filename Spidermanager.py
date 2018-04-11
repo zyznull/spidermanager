@@ -1,5 +1,8 @@
 from scrapy import cmdline
 from search import *
+from scrapy.crawler import CrawlerRunner
+from scrapy.utils.project import get_project_settings
+from twisted.internet import reactor
 
 class SpiderManager(object):
     searchlist = {
@@ -14,7 +17,11 @@ class SpiderManager(object):
         return self.searchlist[type].search(name)
 
     def crawl(sefl,type,url,author):
-        cmdline.execute(('scrapy crawl '+type+' -a author='+author+' -a links='+url).split())
+        runner = CrawlerRunner(get_project_settings())
+        # 'followall' is the name of one of the spiders of the project.
+        d = runner.crawl(type, author = author,links = url)
+        d.addBoth(lambda _: reactor.stop())
+        reactor.run() # the script will block here until the crawling is finished
 sp = SpiderManager()
 urlname = sp.search(type = 'zhihu',name = u'金与火之歌')
 print(urlname)
