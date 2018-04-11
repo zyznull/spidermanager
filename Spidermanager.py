@@ -22,8 +22,9 @@ class SpiderManager(object):
         d = runner.crawl(type, author = author,links = url)
         d.addBoth(lambda _: reactor.stop())
         reactor.run() # the script will block here until the crawling is finished
-sp = SpiderManager()
-urlname = sp.search(type = 'zhihu',name = u'金与火之歌')
-print(urlname)
-sp.crawl(type = 'zhihu',author = u'1',url = urlname)
+if __name__ == '__main__':
+    sp = SpiderManager()
+    urlname = sp.search(type = 'zhihu',name = u'金与火之歌')
+    print(urlname)
+    sp.crawl(type = 'zhihu',author = u'1',url = urlname)
 
