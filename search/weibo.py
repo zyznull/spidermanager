@@ -31,12 +31,14 @@ def search(name):
     display = Display(visible=0, size=(800, 600))
     display.start()
     driver = webdriver.Firefox()
-    with open('\cookies.json', 'r', encoding='utf-8') as f:
-        listCookies = json.loads(f.read())
     driver.get('https://m.weibo.cn/')
+    sleep(2)
+    with open('./cookies.json', 'r', encoding='utf-8') as f:
+        listCookies = json.loads(f.read())
     for cookie in listCookies:
         driver.add_cookie(cookie)
     driver.get('https://m.weibo.cn/searchs')
+    sleep(5)
     driver.find_element_by_link_text('用户').click()
     driver.find_element_by_name('queryVal').send_keys(name)
     driver.find_element_by_class_name('btn-txt').click()
@@ -53,3 +55,5 @@ def search(name):
     display.stop()
     return link
 
+if __name__ == '__main__':
+    print(search('JY戴士'))

@@ -14,22 +14,25 @@ def search(name):
     display = Display(visible=0, size=(800, 600))
     display.start()
     driver = webdriver.Firefox()
-    driver.get('https://www.zhihu.com/explore')
+    url = 'https://www.zhihu.com/search?q='+name + '&type=column'
+    driver.get(url)
     name = name
-    driver.find_element_by_id('q').send_keys(name)
-    driver.find_element_by_class_name('zu-top-search-button').click()
+    #driver.find_element_by_id('q').send_keys(name)
+    #driver.find_element_by_class_name('zu-top-search-button').click()
     sleep(5)
     #driver.find_element_by_xpath('//h2[@class = "ContentItem-title"]/div/h2[@class = "ContentItem-title"]').click()
-    driver.find_element_by_link_text('专栏').click()
-    sleep(1)
+    #driver.find_element_by_class_name('专栏').click()
+    #driver.find_element_by_partial_link_text(u'专栏').click()
+    #sleep(1)
     linkname = driver.find_element_by_class_name('Highlight').text
-    print(linkname)    
+    #print(linkname)
     url = driver.find_element_by_class_name('ColumnLink').get_attribute('href')
     driver.quit()
     display.stop()
     if name == linkname:
-        return url
+        return url 
     return ''
+
 if __name__ == '__main__':
-	print('url' + search(u'金与火之歌'))
+	print('url' + search(u'键盘数据侠'))
 

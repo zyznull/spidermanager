@@ -1,5 +1,9 @@
 from scrapy import cmdline
 from search import *
+from threading import Thread
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
+from twisted.internet import reactor,defer
 
 class SpiderManager(object):
     searchlist = {
@@ -14,9 +18,23 @@ class SpiderManager(object):
         return self.searchlist[type].search(name)
 
     def crawl(sefl,type,url,author):
-        cmdline.execute(('scrapy crawl '+type+' -a author='+author+' -a links='+url).split())
-sp = SpiderManager()
-urlname = sp.search(type = 'zhihu',name = u'金与火之歌')
-print(urlname)
-sp.crawl(type = 'zhihu',author = u'1',url = urlname)
+       # cmdline.execute(('scrapy crawl '+type+' -a author='+author+' -a links='+url).split())
+       process = CrawlerProcess(get_project_settings())
+        #d = runner.crawl(type, author = author,links = url)
+        #dfs.add(d)
+        #defer.DeferredList(dfs).addBoth(lambda _: reactor.stop())
+        #d.addBoth(lambda _: reactor.stop())
+        #reactor.run() # the script will block here until the crawling is finished
+       process.crawl(type,author = author,links = url)
+       Thread(target=process.start).start()
 
+#sp = SpiderManager()
+#urlname = sp.search(type = 'weibo',name = u'JY戴士')
+#print(urlname)
+#sp.crawl(type = 'weibo',author = u'2',url = urlname)
+#urlname = sp.search(type = 'zhihu',name = u'不知所谓')
+#sp.crawl(type = 'zhihu',author = u'10',url = urlname)
+sp = SpiderManager()
+urlname = sp.search(type = 'zhihu',name = u'与时间无关的故事')
+sp.crawl(type = 'zhihu',author = '101',url = urlname)
+sp.crawl(type = 'douban',author = '102',url = 'https://www.douban.com/feed/group/rugosarose/discussion')

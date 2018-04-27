@@ -1,164 +1,1070 @@
-1522733801060	geckodriver	INFO	geckodriver 0.18.0
-1522733801068	geckodriver	INFO	Listening on 127.0.0.1:51356
-1522733802216	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
-1522733803064	Marionette	INFO	Enabled via --marionette
+1523804096176	geckodriver	INFO	geckodriver 0.20.1
+1523804096184	geckodriver	INFO	Listening on 127.0.0.1:45283
+1523804097182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.STnMdw8xcHyF"
+1523804098053	Marionette	INFO	Enabled via --marionette
 
-(firefox:7157): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:2247): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:7157): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:2247): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(firefox:7157): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:2247): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:7157): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:2247): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(firefox:7157): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:2247): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:7157): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:2247): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: chrome://browser/content/customizableui/toolbar.xml, line 21: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIXPCComponents_Utils.import]
+JavaScript error: chrome://browser/content/tabbrowser.xml, line 2426: TypeError: invalid 'in' operand browser
+JavaScript error: chrome://browser/content/customizableui/toolbar.xml, line 21: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIXPCComponents_Utils.import]
+Assertion failure: [unhandlable oom] Failed to allocate object while tenuring., at /builds/worker/workspace/build/src/js/src/jscntxt.cpp:1656
+1523804203028	geckodriver	INFO	geckodriver 0.20.1
+1523804203036	geckodriver	INFO	Listening on 127.0.0.1:55776
+1523804204027	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3N06j2tzzRIm"
+1523804205067	Marionette	INFO	Enabled via --marionette
 
-(firefox:7157): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+(firefox:2315): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7204): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:2315): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7204): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:2315): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7204): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:2315): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7204): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:2315): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7204): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+(firefox:2315): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523804945585	geckodriver	INFO	geckodriver 0.20.1
+1523804945597	geckodriver	INFO	Listening on 127.0.0.1:40406
+1523804946589	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.JlGEnPng428o"
+1523804947363	Marionette	INFO	Enabled via --marionette
 
+(firefox:2478): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7204): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:2478): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7204): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-1522733806194	Marionette	INFO	Listening on port 57766
-1522733806344	Marionette	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 7238, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[Child 7204, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[Child 7204, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 7204, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-1522825795810	geckodriver	INFO	geckodriver 0.18.0
-1522825795817	geckodriver	INFO	Listening on 127.0.0.1:35246
-1522825796958	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
-1522825797674	Marionette	INFO	Enabled via --marionette
+(firefox:2478): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:6503): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:2478): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(firefox:6503): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:2478): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:6503): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:2478): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(firefox:6503): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:2520): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:6503): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:2520): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(firefox:6503): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:2520): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:6503): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+(/usr/lib/firefox/firefox:2520): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6550): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:2520): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6550): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:2520): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523804950848	Marionette	INFO	Listening on port 43277
+1523804951208	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523804951348	Marionette	DEBUG	Register listener.js for window 2147483649
+1523840920084	geckodriver	INFO	geckodriver 0.20.1
+1523840920091	geckodriver	INFO	Listening on 127.0.0.1:60006
+1523840921092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xjjv3qLd8ym5"
+1523840921800	Marionette	INFO	Enabled via --marionette
 
-(/usr/lib/firefox/firefox:6550): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:5472): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6550): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:5472): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6550): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+(firefox:5472): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
+(firefox:5472): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6550): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:5472): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6550): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-1522825800122	Marionette	INFO	Listening on port 44123
-1522825800194	Marionette	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 6582, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[Child 6550, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[Child 6550, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 6550, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-1522826934318	geckodriver	INFO	geckodriver 0.18.0
-1522826934325	geckodriver	INFO	Listening on 127.0.0.1:43290
-1522826935477	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
-1522826936192	Marionette	INFO	Enabled via --marionette
+(firefox:5472): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(firefox:6880): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:5514): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:6880): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:5514): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(firefox:6880): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:5514): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:6880): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:5514): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(firefox:6880): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:5514): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:6880): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:5514): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523840924438	Marionette	INFO	Listening on port 48275
+1523840924505	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523840924643	Marionette	DEBUG	Register listener.js for window 2147483649
+1523841791460	geckodriver	INFO	geckodriver 0.20.1
+1523841791467	geckodriver	INFO	Listening on 127.0.0.1:55613
+1523841792467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EH76pG4KX8OZ"
+1523841793291	Marionette	INFO	Enabled via --marionette
 
-(firefox:6880): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+(firefox:5611): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6927): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:5611): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6927): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:5611): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6927): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:5611): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6927): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:5611): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6927): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+(firefox:5611): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+fork(): Cannot allocate memory
+1523841814029	geckodriver	INFO	geckodriver 0.20.1
+1523841814038	geckodriver	INFO	Listening on 127.0.0.1:55173
+1523841815041	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nBICgUQScpyv"
+1523841815907	Marionette	INFO	Enabled via --marionette
 
+(firefox:5690): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6927): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:5690): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:6927): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-1522826939028	Marionette	INFO	Listening on port 40068
-1522826939216	Marionette	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 6960, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[Child 6927, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[Child 6927, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 6927, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-1522827162174	geckodriver	INFO	geckodriver 0.18.0
-1522827162179	geckodriver	INFO	Listening on 127.0.0.1:58656
-1522827163322	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
-1522827164024	Marionette	INFO	Enabled via --marionette
+(firefox:5690): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:7058): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:5690): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(firefox:7058): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:5690): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:7058): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:5690): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+Sandbox: SandboxReporter: thread creation failed: Cannot allocate memory
+1523841904419	geckodriver	INFO	geckodriver 0.20.1
+1523841904427	geckodriver	INFO	Listening on 127.0.0.1:51835
+1523841905422	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FAhnTJFMkQqM"
+1523841906158	Marionette	INFO	Enabled via --marionette
 
-(firefox:7058): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:7058): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(firefox:7058): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:7058): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7105): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7105): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7105): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:1535): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7105): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:1535): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7105): Pango-WARNING **: error opening config file '/home/zyz/.config/pango/pangorc': Permission denied
+(/usr/lib/firefox/firefox:1535): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
+(/usr/lib/firefox/firefox:1535): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7105): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(/usr/lib/firefox/firefox:1535): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/usr/lib/firefox/firefox:7105): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-1522827166710	Marionette	INFO	Listening on port 33069
-1522827166782	Marionette	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 7143, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[Child 7105, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 7105, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
-[Child 7105, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4kFFck/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+(/usr/lib/firefox/firefox:1535): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523841908843	Marionette	INFO	Listening on port 35529
+1523841908936	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523841909077	Marionette	DEBUG	Register listener.js for window 2147483649
+1523841909112	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523841913234	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523841913234	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523841914169	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zhihu.com/explore"
+1523841915278	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zhihu.com/explore"
+1523841915400	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.zhihu.com/explore"
+1523841916040	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.zhihu.com/explore"
+1523841916044	Marionette	DEBUG	Received DOM event "unload" for "https://www.zhihu.com/explore"
+1523841917206	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zhihu.com/search?type=content&q=%E9%94%AE%E7%9B%98%E6%95%B0%E6%8D%AE%E4%BE%A0"
+1523841917583	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zhihu.com/search?type=content&q=%E9%94%AE%E7%9B%98%E6%95%B0%E6%8D%AE%E4%BE%A0"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523841944069	geckodriver	INFO	geckodriver 0.20.1
+1523841944075	geckodriver	INFO	Listening on 127.0.0.1:51352
+1523841945074	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ikAIKNNr5WQI"
+1523841945776	Marionette	INFO	Enabled via --marionette
+
+(firefox:1596): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1596): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1596): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1596): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1596): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1596): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1638): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1638): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1638): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1638): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1638): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1638): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523841948368	Marionette	INFO	Listening on port 52690
+1523841948396	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523841948479	Marionette	DEBUG	Register listener.js for window 2147483649
+1523842192154	geckodriver	INFO	geckodriver 0.20.1
+1523842192161	geckodriver	INFO	Listening on 127.0.0.1:57788
+1523842193160	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.oO30rkEFcrdV"
+1523842193889	Marionette	INFO	Enabled via --marionette
+
+(firefox:1794): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1794): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1794): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1794): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1794): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1794): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1836): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1836): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1836): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1836): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1836): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1836): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523842196526	Marionette	INFO	Listening on port 38920
+1523842196593	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523842196720	Marionette	DEBUG	Register listener.js for window 2147483649
+1523843067372	geckodriver	INFO	geckodriver 0.20.1
+1523843067380	geckodriver	INFO	Listening on 127.0.0.1:53879
+1523843068378	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.HETp45fTnWlV"
+1523843069081	Marionette	INFO	Enabled via --marionette
+
+(firefox:1939): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1939): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1939): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1939): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1939): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1939): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1981): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1981): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1981): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1981): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1981): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1981): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523843071803	Marionette	INFO	Listening on port 53997
+1523843071894	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523843072030	Marionette	DEBUG	Register listener.js for window 2147483649
+1523843283762	geckodriver	INFO	geckodriver 0.20.1
+1523843283769	geckodriver	INFO	Listening on 127.0.0.1:33439
+1523843284768	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6Z7FGzKraIPR"
+1523843285559	Marionette	INFO	Enabled via --marionette
+
+(firefox:2045): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2045): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2045): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2045): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2045): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2045): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2087): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2087): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2087): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2087): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2087): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2087): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+Assertion failure: [unhandlable oom] Failed to allocate object while tenuring., at /builds/worker/workspace/build/src/js/src/jscntxt.cpp:1656
+1523843348677	geckodriver	INFO	geckodriver 0.20.1
+1523843348686	geckodriver	INFO	Listening on 127.0.0.1:56622
+1523843349680	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.7hDCF15mAg9I"
+1523843350408	Marionette	INFO	Enabled via --marionette
+
+(firefox:1492): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1492): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1492): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1492): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1492): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1492): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1534): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1534): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1534): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1534): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1534): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1534): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523843353143	Marionette	INFO	Listening on port 39262
+1523843353195	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523843353276	Marionette	DEBUG	Register listener.js for window 2147483649
+1523843353318	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523843355080	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523843355080	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523843355378	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523843355813	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523843548301	geckodriver	INFO	geckodriver 0.20.1
+1523843548308	geckodriver	INFO	Listening on 127.0.0.1:43632
+1523843549306	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.XLKrzaJV52d9"
+1523843549974	Marionette	INFO	Enabled via --marionette
+
+(firefox:1690): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1690): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1690): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1690): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1690): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1690): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1732): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1732): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1732): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1732): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1732): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1732): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523843552444	Marionette	INFO	Listening on port 59942
+1523843552529	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523843552685	Marionette	DEBUG	Register listener.js for window 2147483649
+1523843552714	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523843554339	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523843554339	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523843555298	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523843555774	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523843727953	geckodriver	INFO	geckodriver 0.20.1
+1523843727959	geckodriver	INFO	Listening on 127.0.0.1:57398
+1523843728958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.tELLlCl6sirR"
+1523843729638	Marionette	INFO	Enabled via --marionette
+
+(firefox:1802): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1802): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1802): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1802): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1802): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1802): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1844): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1844): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1844): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1844): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1844): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1844): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523843732443	Marionette	INFO	Listening on port 57513
+1523843732473	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523843732578	Marionette	DEBUG	Register listener.js for window 2147483649
+1523843732626	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523843734427	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523843734427	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523843734741	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523843735560	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523843941997	geckodriver	INFO	geckodriver 0.20.1
+1523843942005	geckodriver	INFO	Listening on 127.0.0.1:56936
+1523843942999	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.pewu878OV18a"
+1523843943741	Marionette	INFO	Enabled via --marionette
+
+(firefox:1922): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1922): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1922): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1922): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1922): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1922): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1964): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1964): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1964): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1964): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1964): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1964): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+Assertion failure: [unhandlable oom] Failed to allocate object while tenuring., at /builds/worker/workspace/build/src/js/src/jscntxt.cpp:1656
+1523862461937	geckodriver	INFO	geckodriver 0.20.1
+1523862461949	geckodriver	INFO	Listening on 127.0.0.1:55420
+1523862462920	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.v0aqEebFThFU"
+1523862463893	Marionette	INFO	Enabled via --marionette
+
+(firefox:3851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+[Parent 3851, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/workspace/build/src/ipc/glue/GeckoChildProcessHost.cpp, line 647
+[Parent 3851, Gecko_IOThread] WARNING: pipe error (34): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 3851, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/workspace/build/src/ipc/glue/GeckoChildProcessHost.cpp, line 647
+[Parent 3851, Gecko_IOThread] WARNING: pipe error (34): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 366: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIScriptSecurityManager.getLoadContextCodebasePrincipal]
+[Parent 3851, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/workspace/build/src/ipc/glue/GeckoChildProcessHost.cpp, line 647
+[Parent 3851, Gecko_IOThread] WARNING: pipe error (34): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 240: TypeError: this.frameLoader.tabParent is null
+[Parent 3851, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file /builds/worker/workspace/build/src/ipc/glue/GeckoChildProcessHost.cpp, line 647
+[Parent 3851, Gecko_IOThread] WARNING: pipe error (34): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 240: TypeError: this.frameLoader.tabParent is null
+JavaScript error: chrome://browser/content/browser-places.js, line 1181: TypeError: PlacesToolbar is not a constructor
+out of memory: 0x0000000000000350 bytes requested
+1523862554794	geckodriver	INFO	geckodriver 0.20.1
+1523862554802	geckodriver	INFO	Listening on 127.0.0.1:49965
+1523862555798	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FkNI9pGwaGAa"
+1523862556562	Marionette	INFO	Enabled via --marionette
+
+(firefox:1496): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1496): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1496): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1496): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1496): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1496): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1538): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1538): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1538): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1538): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1538): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1538): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523862559250	Marionette	INFO	Listening on port 47382
+1523862559313	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523862559393	Marionette	DEBUG	Register listener.js for window 2147483649
+1523862559441	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523862562673	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523862562674	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523862563361	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862563949	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862633560	geckodriver	INFO	geckodriver 0.20.1
+1523862633566	geckodriver	INFO	Listening on 127.0.0.1:38028
+1523862634565	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kM3yDjDFyKwi"
+1523862635227	Marionette	INFO	Enabled via --marionette
+
+(firefox:1602): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1602): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1602): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1602): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1602): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1602): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1644): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1644): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1644): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1644): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1644): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1644): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523862637733	Marionette	INFO	Listening on port 49493
+1523862637781	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523862637865	Marionette	DEBUG	Register listener.js for window 2147483649
+1523862637907	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523862639432	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523862639432	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523862639742	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862640558	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862741933	geckodriver	INFO	geckodriver 0.20.1
+1523862741939	geckodriver	INFO	Listening on 127.0.0.1:49001
+1523862742937	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.le9eaG6VGKXT"
+1523862743625	Marionette	INFO	Enabled via --marionette
+
+(firefox:1712): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1712): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1712): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1712): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1712): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1712): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1754): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1754): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1754): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1754): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1754): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1754): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523862746272	Marionette	INFO	Listening on port 47344
+1523862746356	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523862746434	Marionette	DEBUG	Register listener.js for window 2147483649
+1523862746466	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523862747965	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523862747965	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523862748298	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862749134	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862751164	Marionette	DEBUG	Received DOM event "beforeunload" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862751944	Marionette	DEBUG	Received DOM event "pagehide" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862751944	Marionette	DEBUG	Received DOM event "unload" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862753368	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/login?entry=mweibo&res=wel&wm=3349&r=http%3A%2F%2Fm.weibo.cn%2Fsearchs"
+1523862753581	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/login?entry=mweibo&res=wel&wm=3349&r=http%3A%2F%2Fm.weibo.cn%2Fsearchs"
+1523862808029	geckodriver	INFO	geckodriver 0.20.1
+1523862808036	geckodriver	INFO	Listening on 127.0.0.1:37388
+1523862809034	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.H4gGguvc4XFp"
+1523862809800	Marionette	INFO	Enabled via --marionette
+
+(firefox:1821): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1821): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1821): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1821): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1821): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1821): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1864): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1864): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1864): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1864): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1864): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1864): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523862816423	Marionette	INFO	Listening on port 59572
+1523862817042	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523862835778	geckodriver	INFO	geckodriver 0.20.1
+1523862835787	geckodriver	INFO	Listening on 127.0.0.1:33091
+1523862836782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.CuQ8mSsZBMmD"
+1523862837541	Marionette	INFO	Enabled via --marionette
+
+(firefox:1929): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1929): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1929): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1929): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1929): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1929): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1971): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1971): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1971): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1971): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1971): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1971): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523862840151	Marionette	INFO	Listening on port 51644
+1523862840199	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523862840283	Marionette	DEBUG	Register listener.js for window 2147483649
+1523862840331	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523862842456	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523862842456	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523862842842	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862843321	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862845353	Marionette	DEBUG	Received DOM event "beforeunload" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862846763	Marionette	DEBUG	Received DOM event "pagehide" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862846763	Marionette	DEBUG	Received DOM event "unload" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523862848390	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/login?entry=mweibo&res=wel&wm=3349&r=http%3A%2F%2Fm.weibo.cn%2Fsearchs"
+1523862848397	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/login?entry=mweibo&res=wel&wm=3349&r=http%3A%2F%2Fm.weibo.cn%2Fsearchs"
+1523863055481	geckodriver	INFO	geckodriver 0.20.1
+1523863055488	geckodriver	INFO	Listening on 127.0.0.1:59618
+1523863056486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6H4N193HGgcp"
+1523863057174	Marionette	INFO	Enabled via --marionette
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2198): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2198): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2198): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2198): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2198): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2198): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523863060741	Marionette	INFO	Listening on port 47590
+1523863060829	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523863061070	Marionette	DEBUG	Register listener.js for window 2147483649
+1523863061313	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150083,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 2154, Gecko_IOThread] WARNING: waitpid failed pid:2198 errno:10: file /builds/worker/workspace/build/src/ipc/chromium/src/base/process_util_posix.cc, line 276
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2154): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523863078828	geckodriver	INFO	geckodriver 0.20.1
+1523863078835	geckodriver	INFO	Listening on 127.0.0.1:36104
+1523863079833	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.P8h6bFYAHtsy"
+1523863080570	Marionette	INFO	Enabled via --marionette
+
+(firefox:2271): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2271): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2271): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2271): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2271): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2271): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2313): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2313): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2313): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2313): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2313): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2313): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+console.error: 
+  Message: Error: Error(s) encountered during statement execution: out of memory
+  Stack:
+    handleCompletion@resource://gre/modules/Sqlite.jsm:810:25
+
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: out of memory
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/modules/XPCOMUtils.jsm, line 266: uncaught exception: out of memory
+1523863235432	geckodriver	INFO	geckodriver 0.20.1
+1523863235439	geckodriver	INFO	Listening on 127.0.0.1:53012
+1523863236435	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.HbGHDZZf4dJF"
+1523863237160	Marionette	INFO	Enabled via --marionette
+
+(firefox:1499): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1499): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1499): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1499): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1499): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1499): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1542): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1542): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1542): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1542): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1542): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1542): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523863239851	Marionette	INFO	Listening on port 36042
+1523863239949	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523863240055	Marionette	DEBUG	Register listener.js for window 2147483649
+1523863240088	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523863242387	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523863242387	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523863242753	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523863243021	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523863245054	Marionette	DEBUG	Received DOM event "beforeunload" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523863245862	Marionette	DEBUG	Received DOM event "pagehide" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523863245862	Marionette	DEBUG	Received DOM event "unload" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523863263366	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/login?entry=mweibo&res=wel&wm=3349&r=http%3A%2F%2Fm.weibo.cn%2Fsearchs"
+1523863263618	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/login?entry=mweibo&res=wel&wm=3349&r=http%3A%2F%2Fm.weibo.cn%2Fsearchs"
+1523864876811	geckodriver	INFO	geckodriver 0.20.1
+1523864876821	geckodriver	INFO	Listening on 127.0.0.1:56260
+1523864877816	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.562VlGa7q6oU"
+1523864878593	Marionette	INFO	Enabled via --marionette
+
+(firefox:1842): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1842): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1842): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1842): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1842): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1842): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1884): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1884): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1884): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1884): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1884): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1884): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523864881324	Marionette	INFO	Listening on port 47308
+1523864881337	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523864881443	Marionette	DEBUG	Register listener.js for window 2147483649
+1523864881472	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523864883247	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523864883247	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523864883540	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523864883820	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865123762	geckodriver	INFO	geckodriver 0.20.1
+1523865123769	geckodriver	INFO	Listening on 127.0.0.1:34763
+1523865124767	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.OYMuZLfaCxV6"
+1523865125447	Marionette	INFO	Enabled via --marionette
+
+(firefox:1980): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1980): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1980): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1980): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1980): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1980): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2022): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2022): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2022): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2022): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2022): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2022): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523865128101	Marionette	INFO	Listening on port 35531
+1523865128184	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523865128301	Marionette	DEBUG	Register listener.js for window 2147483649
+1523865128330	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523865131345	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523865131345	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523865132214	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865132479	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865384771	geckodriver	INFO	geckodriver 0.20.1
+1523865384778	geckodriver	INFO	Listening on 127.0.0.1:48252
+1523865385778	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fw3nDMYmtf2I"
+1523865386523	Marionette	INFO	Enabled via --marionette
+
+(firefox:2135): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2135): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2135): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2135): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2135): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2135): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2177): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2177): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2177): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2177): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2177): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2177): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2135): GLib-ERROR **: creating thread 'gmain': Error creating thread: Resource temporarily unavailable
+1523865405463	geckodriver	INFO	geckodriver 0.20.1
+1523865405471	geckodriver	INFO	Listening on 127.0.0.1:32773
+1523865406468	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PuudDCBm1r6l"
+1523865407232	Marionette	INFO	Enabled via --marionette
+
+(firefox:2234): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2234): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2234): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2234): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2234): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2234): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2276): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2276): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2276): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2276): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2276): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2276): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523865468481	geckodriver	INFO	geckodriver 0.20.1
+1523865468489	geckodriver	INFO	Listening on 127.0.0.1:37591
+1523865469485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.DtNo1EUcihSw"
+1523865470278	Marionette	INFO	Enabled via --marionette
+
+(firefox:1489): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1489): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1489): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1489): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1489): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1489): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1531): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1531): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1531): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1531): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1531): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1531): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523865473145	Marionette	INFO	Listening on port 54168
+1523865473200	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523865473337	Marionette	DEBUG	Register listener.js for window 2147483649
+1523865473373	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523865475163	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523865475163	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523865475468	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865476291	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865478310	Marionette	DEBUG	Received DOM event "beforeunload" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865478791	Marionette	DEBUG	Received DOM event "pagehide" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865478791	Marionette	DEBUG	Received DOM event "unload" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865478863	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2Fsearchs"
+1523865478874	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2Fsearchs"
+1523865644746	geckodriver	INFO	geckodriver 0.20.1
+1523865644753	geckodriver	INFO	Listening on 127.0.0.1:38514
+1523865645754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.XTTdgf69wltQ"
+1523865646424	Marionette	INFO	Enabled via --marionette
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1643): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1643): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1643): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1643): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1643): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1643): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523865649049	Marionette	INFO	Listening on port 33044
+1523865649078	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523865649158	Marionette	DEBUG	Register listener.js for window 2147483649
+1523865649182	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523865651219	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523865651220	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523865651533	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865651839	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865653866	Marionette	DEBUG	Received DOM event "beforeunload" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865654191	Marionette	DEBUG	Received DOM event "pagehide" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865654191	Marionette	DEBUG	Received DOM event "unload" for "https://passport.weibo.cn/signin/welcome?entry=mweibo&r=http%3A%2F%2Fm.weibo.cn%2F"
+1523865654650	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://m.weibo.cn/searchs"
+1523865655086	Marionette	DEBUG	Received DOM event "pageshow" for "https://m.weibo.cn/searchs"
+1523865660343	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523865660445	Marionette	DEBUG	Received DOM event "beforeunload" for "https://m.weibo.cn/searchs"
+1523865660957	Marionette	DEBUG	Received DOM event "pagehide" for "https://m.weibo.cn/searchs"
+1523865660957	Marionette	DEBUG	Received DOM event "unload" for "https://m.weibo.cn/searchs"
+1523865661229	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://m.weibo.cn/p/100103type%3D3%26q%3DJY%E6%88%B4%E5%A3%AB?type=user&queryVal=JY%E6%88%B4%E5%A3%AB&luicode=10000011&lfid=106003type%3D1&title=JY%E6%88%B4%E5%A3%AB"
+1523865661353	Marionette	DEBUG	Received DOM event "pageshow" for "https://m.weibo.cn/p/100103type%3D3%26q%3DJY%E6%88%B4%E5%A3%AB?type=user&queryVal=JY%E6%88%B4%E5%A3%AB&luicode=10000011&lfid=106003type%3D1&title=JY%E6%88%B4%E5%A3%AB"
+1523865666615	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1601): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
