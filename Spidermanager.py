@@ -1,15 +1,9 @@
 from scrapy import cmdline
 from search import *
-<<<<<<< HEAD
 from threading import Thread
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 from twisted.internet import reactor,defer
-=======
-from scrapy.crawler import CrawlerRunner
-from scrapy.utils.project import get_project_settings
-from twisted.internet import reactor
->>>>>>> 6618d3153ebaf6a07500f6bf0cc5d3a6954bbf18
 
 class SpiderManager(object):
     searchlist = {
