@@ -5,6 +5,7 @@ import scrapy
 import json
 from io import *
 import re
+import datetime
 #import sys
 
 #sys.stdout = TextIOWrapper(sys.stdout.buffer,encoding='UTF-8') #改变标准输出的默认编码  
@@ -15,7 +16,7 @@ class zhihuSpider(scrapy.Spider):
     start_urls = []
     def __init__(self,author,links,*args,**kwargs):
         super(zhihuSpider,self).__init__(*args,**kwargs)
-        self.author = author
+        self.author = int(author)
         self.start_urls.append(links)
 
     def start_requests(self):
@@ -42,9 +43,10 @@ class zhihuSpider(scrapy.Spider):
         pattern = re.compile(r'<[^>]+>', re.S)
         for ele in jsonbody:
             item = ArticleItem()
-            item['link'] = ele['url']
+            item['url'] = 'https://zhuanlan.zhihu.com'+ ele['url']
             item['title'] = ele['title']
-            item['author'] = self.author
+            item['topic_id'] = self.author
             content = ele['content']
-            item['desc'] = pattern.sub('', content)[:100]
+            item['abstract'] = pattern.sub('', content)[:100]
+            item['publish_time'] = datetime.datetime.now()
             yield item

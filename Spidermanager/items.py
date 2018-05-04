@@ -11,7 +11,8 @@ import scrapy
 class ArticleItem(scrapy.Item):
     # define the fields for your item here like:
     title = scrapy.Field()
-    link = scrapy.Field()
-    author = scrapy.Field()
-    desc = scrapy.Field()
+    url = scrapy.Field()
+    topic_id = scrapy.Field()
+    abstract = scrapy.Field()
+    publish_time = scrapy.Field()
 

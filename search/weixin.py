@@ -15,3 +15,5 @@ def search(name):
     return ''
 
 
+if __name__ == '__main__':
+    print(search('越女事务所'))

@@ -7,10 +7,13 @@ import requests
 import re
 import json
 import time
+from pyvirtualdisplay import Display
 
 
 def login():
-    driver = webdriver.Chrome('C:\Program Files (x86)\Google\Chrome\Application\chromedriver') #这个是chormedriver的地址
+    display = Display(visible=0, size=(800, 600))
+    display.start()
+    driver = webdriver.Firefox()
     driver.get('https://m.weibo.cn/')
     driver.find_element_by_link_text('登录').click()
     sleep(5)
@@ -25,13 +28,17 @@ def login():
     driver.quit()
 
 def search(name):
-    driver = webdriver.Chrome('C:\Program Files (x86)\Google\Chrome\Application\chromedriver')
-    with open('D:\code\python\Spidermanager\search\cookies.json', 'r', encoding='utf-8') as f:
-        listCookies = json.loads(f.read())
+    display = Display(visible=0, size=(800, 600))
+    display.start()
+    driver = webdriver.Firefox()
     driver.get('https://m.weibo.cn/')
+    sleep(2)
+    with open('./cookies.json', 'r', encoding='utf-8') as f:
+        listCookies = json.loads(f.read())
     for cookie in listCookies:
         driver.add_cookie(cookie)
     driver.get('https://m.weibo.cn/searchs')
+    sleep(5)
     driver.find_element_by_link_text('用户').click()
     driver.find_element_by_name('queryVal').send_keys(name)
     driver.find_element_by_class_name('btn-txt').click()
@@ -44,4 +51,9 @@ def search(name):
     link = driver.current_url
     linkname = re.split(r'[/&?]',link)[4]
     link = 'https://m.weibo.cn/u/'+linkname
+    driver.quit()
+    display.stop()
     return link
+
+if __name__ == '__main__':
+    print(search('JY戴士'))

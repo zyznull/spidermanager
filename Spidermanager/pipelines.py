@@ -7,7 +7,6 @@
 
 
 import datetime
-import redis
 import json
 import logging
 from contextlib import contextmanager
@@ -33,11 +32,16 @@ class ArticleDataBasePipeline(object):
         pass
 
     def process_item(self, item, spider):
-        a = Article(link=item["link"],
-                    title=item["title"].encode("utf-8"),
-                    author = item["author"].encode("utf-8"),
-                    desc =item["desc"].encode("utf-8"))
+        a = Article(url = item["url"],
+                    title = item["title"].encode("utf-8"),
+                    topic_id = item["topic_id"],
+                    abstract = item["abstract"].encode("utf-8"),
+                    publish_time = item["publish_time"])
         session = self.Session()
+        b = session.query(Article).filter_by(url = item["url"]).first()
+        if(b != None):
+           session.delete(b)
+           session.commit()
         session.add(a)
         session.commit()
         '''

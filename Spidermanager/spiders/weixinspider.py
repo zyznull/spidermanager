@@ -3,6 +3,7 @@ import json
 import re
 import random
 from Spidermanager.items import ArticleItem
+import datetime
 
 class weixinSpider(scrapy.Spider):
     name = "weixin"
@@ -13,7 +14,7 @@ class weixinSpider(scrapy.Spider):
     query = ''
     def __init__(self,author,links,*args,**kwargs):
         super(weixinSpider,self).__init__(*args,**kwargs)
-        self.author = author
+        self.author = int(author)
         self.query = links
 
     def start_requests(self):
@@ -98,7 +99,8 @@ class weixinSpider(scrapy.Spider):
         for fake in fakeid_list:
             item = ArticleItem()
             item['title'] = fake['title']
-            item['link'] = fake['link']
-            item['author'] = self.query
-            item['desc'] = ''
+            item['url'] = fake['link']
+            item['topic_id'] = self.query
+            item['abstract'] = ''
+            item['publish_time'] = datetime.datetime.now()
             yield item
